@@ -1,0 +1,12 @@
+{
+  "payment": "payment",
+  "invoiceDetails": "invoice Details",
+  "generalTypeOfConsultation": "general Consultation",
+  "consultationSubtype": "consultation Subtype",
+  "walletBalance": "wallet Balance",
+  "electronicPaymentCard": "electronic Payment Card",
+  "electronicWallet": "electronic Wallet",
+  "confirmPayment": "confirm Payment",
+  "Consulting": "Consulting"
+
+}

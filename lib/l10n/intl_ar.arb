@@ -1,0 +1,12 @@
+{
+  "payment": "الدفع",
+  "invoiceDetails": "تفاصيل الفاتورة",
+  "generalTypeOfConsultation": "نوع الاستشارة العام",
+  "consultationSubtype": "نوع الاستشارة الفرعي",
+  "walletBalance": "رصيد المحفظه",
+  "electronicPaymentCard": "بطاقة الدفع الالكتروني",
+  "electronicWallet": "المحفظة الالكترونية",
+  "confirmPayment": "تاكيد الدفع",
+  "Consulting": "الاستشارات"
+
+}
