@@ -52,7 +52,7 @@ abstract class ApiService {
 
   @POST("acceptance/payment_keys")
   Future<PaymentKeyModel> getPaymentKey(
-      @Body()  PaymentKeyRequest paymentKeyRequest,
+      @Body() PaymentKeyRequest paymentKeyRequest,
       // @Field("auth_token")  String authToken,
       // @Field( "amount_cents")  String amountCents,
       // @Field("currency")  String currency,

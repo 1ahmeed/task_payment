@@ -20,7 +20,6 @@ class PaymentRepoImpl extends PaymentRepo {
 
   @override
   Future<Either<Failures, PayAuthModel>> getAuthenticationToken(String apiKey)async {
-
     try {
       var response = await paymentRemoteDataSource.getAuthenticationToken(apiKey);
       print(response);

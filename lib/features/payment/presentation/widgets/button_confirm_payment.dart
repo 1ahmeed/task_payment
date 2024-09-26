@@ -33,10 +33,10 @@ class ButtonConfirmPayment extends StatelessWidget {
               await context.read<PaymentCubit>().getAuthenticationToken();
               await context
                   .read<PaymentCubit>()
-                  .getPaymentOrder(currency: "EGP", amountCents: cubit.amountcents);
+                  .getPaymentOrder(currency: "EGP", amountCents: 10);
               await context
                   .read<PaymentCubit>()
-                  .getPaymentKey(currency: "EGP", amountCents: cubit.amountcents);
+                  .getPaymentKey(currency: "EGP", amountCents: 10);
               if (state is GetPaymentKeySuccessState) {
                 launchUrl(Uri.parse(
                     "https://accept.paymob.com/api/acceptance/iframes/870749?payment_token=${state.token}"));
